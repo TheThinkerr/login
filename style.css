@@ -1,0 +1,93 @@
+.topnav {
+  overflow: hidden;
+  background-color: #00000000;
+}
+
+.topnav a.active {
+  background-color: #1d1352;
+  color: white;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  color: #e5e5e5;
+  padding: 14px 16px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 16px;
+}
+
+.topnav-right {
+  float:right;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url(background.jpg);
+  backdrop-filter: blur(2px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  opacity: 1.0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  border: 3px solid #061927;
+  width: fit-content;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.imgcontainer {
+  text-align: center;
+  border-radius: 80%;
+}
+
+.topnav a:hover {
+  background-color: #454549;
+  color: black;
+}
+
+.container {
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav a {
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav-right {
+    float: none;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  span.psw {
+    display: block;
+    float: none;
+  }
+  
+  form {
+    width: 100%;
+  }
+}
